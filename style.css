@@ -1,0 +1,433 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(225, 208, 181);  
+}
+
+.conteudo{
+    margin-top: 100px;
+}
+
+.logo{
+    width: 100%;
+    margin-left: 5px;
+    padding: 5px;
+    padding-top: 15px;  
+}
+
+.name{
+    width: 350%;
+    padding-top: 20px;
+    margin-left: 25px;   
+}
+
+.empresa{
+    width: 120%;
+    padding-top: 18px;
+    margin-left: 170px;
+}
+
+#sobre{
+    padding-top: 100px;
+}
+
+#membros{
+    padding-top: 50px;
+}
+
+#discografia{
+    padding-top: 50px;
+}
+
+#mvs{
+    padding-top: 50px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 15vw 15vw 15vw 15vw 15vw 15vw;
+    grid-gap: 1vw;
+    justify-content: center;
+    align-content: start;
+    word-spacing: 1px;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(225, 208, 181);
+    margin-top: -100px;
+    padding-bottom: 10px;
+}
+
+.container-flex{
+    display: flex;     
+}
+
+nav{
+    width: 100vw;
+    margin-top: 80px;
+    margin-left: -170px;
+    font-weight: bold;
+}
+
+nav ul{
+    list-style: none;   
+}
+
+nav ul li{
+    display: inline;
+    list-style: none;   
+}
+
+nav ul li a{    
+    text-decoration: none;
+    height:30px;
+    padding: 5px 3px;
+    border-radius: 5px;
+}
+
+a.active, a:hover{
+    background-color: #939391;
+    transition: .5s;
+}
+
+h1{
+    grid-column: 6;
+    padding-top: 1vh;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(147, 147, 145);   
+}
+
+.texto{
+    padding-top: 15px;
+    text-align: justify;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.everglow{
+    width: 90%;
+    margin-left: 16px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.membros{
+    grid-column: 6;
+    padding-top: 1vh;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(147, 147, 145);
+}
+
+h2{
+    margin-top: 30px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+
+.sihyeon{
+    width: 90%;
+    margin-left: 16px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+p{
+    margin-left: 16px;
+    margin-right: 10px;
+    text-align: center;
+    padding: 7px;
+}
+
+.jiwon{
+    width: 90%;
+    margin-left: 16px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.mia{
+    width: 90%;
+    margin-left: 16px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.onda{
+    width: 90%;
+    margin-left: 16px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.aisha{
+    width: 90%;
+    margin-left: 16px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.yiren{
+    width: 90%;
+    margin-left: 16px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.disc{
+    grid-column: 6;
+    padding-top: 1vh;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(147, 147, 145); 
+}
+
+.aoe{
+    width: 50%;
+    margin-left: 16px;
+    margin-right: 10px;
+    margin-top: -70px;
+    display: table;
+    float: left;
+    border:10px solid rgb(204, 183, 152);
+}
+    
+
+.conteudo{
+    display: table;   
+}
+
+
+.arrival{
+    display: table-cell;
+    float: right;
+    font-size: 20px;
+    text-align: center;
+    width: 40%;
+    letter-spacing: 2px;
+    margin-top: -10px;
+    padding-right: 20px;
+    
+}
+
+
+.hush{
+    width: 50%;
+    margin-left: 16px;
+    margin-right: 10px;
+    margin-top: -70px;
+    display: table;
+    float: right;
+    border:10px solid rgb(204, 183, 152);
+}
+
+
+.hh{
+    display: table-cell;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    width: 40%;
+    letter-spacing: 2px;
+    margin-top: -10px;
+    padding-right: 20px;
+}
+
+
+
+.cence{
+    width: 50%;
+    margin-left: 16px;
+    margin-right: 10px;
+    margin-top: -70px;
+    display: table;
+    float: left;
+    border:10px solid rgb(204, 183, 152);
+}
+
+
+.remi{
+    display: table-cell;
+    float: right;
+    font-size: 20px;
+    text-align: center;
+    width: 40%;
+    margin-top: -10px;
+    padding-right: 20px;  
+}
+
+
+.di{
+    width: 50%;
+    margin-left: 16px;
+    margin-right: 10px;
+    margin-top: -70px;
+    display: table;
+    float: right;
+    border:10px solid rgb(204, 183, 152);
+}
+
+
+.la{
+    display: table-cell;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    width: 40%;
+    margin-top: -10px;
+    padding-right: 20px;  
+}
+
+.let{
+    display: table-cell;
+    float: right;
+    font-size: 20px;
+    text-align: center;
+    width: 40%;
+    margin-top: -10px;
+    padding-right: 20px; 
+    
+} 
+
+
+.dance{
+    width: 50%;
+    margin-left: 16px;
+    margin-right: 10px;
+    margin-top: -70px;
+    display: table;
+    float: left;
+    border:10px solid rgb(204, 183, 152);
+}
+
+
+.last{
+    display: table-cell;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    width: 40%;
+    margin-top: -0px;
+    padding-right: 20px;  
+    border:10px solid rgb(204, 183, 152);
+}
+
+
+.melody{
+    width: 50%;
+    margin-left: 16px;
+    margin-right: 10px;
+    margin-top: -70px;
+    display: table;
+    float: right;  
+   
+}
+
+
+.pro{
+    display: table-cell;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    width: 40%;
+    margin-top: -10px;
+    padding-right: 20px;  
+    
+}
+
+
+.mise{
+    width: 50%;
+    margin-left: 16px;
+    margin-right: 10px;
+    margin-top: -70px;
+    display: table;
+    float: right;  
+    border:10px solid rgb(204, 183, 152);
+}
+
+.videos{
+    grid-column: 6;
+    padding-top: 1vh;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(147, 147, 145);
+}
+
+.bon{
+    width: 90%;
+    margin-left: 16px;
+    margin-right: 10px;
+    margin-top: 15px;
+    border:10px solid rgb(204, 183, 152);
+}
+
+.adios{
+    width: 90%;
+    margin-left: 16px;
+    margin-right: 10px;
+    margin-top: 15px;
+    border:10px solid rgb(204, 183, 152);
+}
+
+.dun{
+    width: 90%;
+    margin-left: 16px;
+    margin-right: 10px;
+    margin-top: 15px;
+    border:10px solid rgb(204, 183, 152);
+}
+
+.ladida{
+    width: 90%;
+    margin-left: 16px;
+    margin-right: 10px;
+    margin-top: 15px;
+    border:10px solid rgb(204, 183, 152);
+}
+
+.first{
+    width: 90%;
+    margin-left: 16px;
+    margin-right: 10px;
+    margin-top: 15px;
+    border:10px solid rgb(204, 183, 152);
+}
+
+.promise{
+    width: 90%;
+    margin-left: 16px;
+    margin-right: 10px;
+    margin-top: 15px;
+    border:10px solid rgb(204, 183, 152);
+}
+
+
+footer{
+    width:100%;
+    background-color: rgb(147, 147, 145);
+    padding:15px;
+    margin-top: 60px;   
+}
+
+footer p{
+   text-align: center;
+}
